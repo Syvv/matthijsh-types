@@ -1,6 +1,6 @@
 {
   "name": "matthijsh-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "types for matthijsh",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   },
   "files": ["lib/**/*"],
   "keywords": [],
-  "author": "",
+  "author": "Matthijs Hartskeerl",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.7.4"
