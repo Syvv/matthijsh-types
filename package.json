@@ -1,12 +1,18 @@
 {
   "name": "matthijsh-types",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "types for matthijsh",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare" : "npm run build"
   },
+  "files": ["lib/**/*"],
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
